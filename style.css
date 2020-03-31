@@ -2,12 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /*font-family: "Georgia Serif", serif;*/
-  /*border: 1px solid rgb(123, 123, 123);*/
 }
 
 body {
-  background: #E9F1EE; /*~CIL Swan White*/
+  background: white;
   font-family: "Trebuchet MS", "Arial", sans-serif;
 }
 
@@ -20,24 +18,13 @@ a:visited {
   text-decoration: none;
 }
 
-/*.active_banner_link {
-  border-bottom-style: solid;
-  border-bottom-width: 0.15em;
-}*/
-
 #banner {
   display: flex;
   flex-wrap: wrap;
   position: relative;
   width: 100%;
   color: #032131;
-
-  /*background-color: #063852;*/
-  background-color: #E9F1EE; /*~CIL Swan White*/
-  /*z-index: 1;*/
-  /*box-shadow: 0px 2px 8px #444;*/
-  /*border: 1px solid rgb(123, 123, 123);*/
-  /*#063852 #34675C # #*/
+  background-color: white;
 }
 
 #banner_title {
@@ -49,9 +36,6 @@ a:visited {
   padding: 0.5em 0 0 0;
   text-align: center;
   color: #0C3D82;
-  /*color: #032131;*/
-  /*color: #042739;*/
-  /*color: #072146;*/
 }
 
 #banner_menu {
@@ -72,27 +56,14 @@ a:visited {
   padding: 20px;
   font-family: "Encode Sans Semi Condensed", "Trebuchet MS", sans-serif;
   font-size: 14px;
-  /*color: #666;*/
-  /*color: #032131;*/
-  /*color: #6D98A9;*/ /*~CIL Benton Harbor*/
-  /*color: #04315D;*/
   color: #0C3D82;
-  /*color: #0D3359;*/
 }
 
 #banner_menu a:hover {
-  /*background-color: #063852;*/
   background-color: #1E4B63;
   background-color: #0C3D82;
   color: #E9F1EE;
-  /*box-shadow: 0px 0px 3px #DDD;*/
 }
-
-/*Need spacer to position elements below fixed banner*/
-/*#banner_spacer {
-  height: 80px;
-  width: 100%;
-}*/
 
 .main_content {
   margin-top: 5px;
@@ -102,8 +73,6 @@ section {
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  /*justify-content: center;*/
-  /*align-items: center;*/
   height: 100%;
 }
 
@@ -112,24 +81,14 @@ h2 {
   text-align: center;
   font-family: "Kreon", "Times", serif;
   font-weight: 300;
-  /*color: #063852;*/
   color: #0080D1;
   color: #0C3D82;
   background-color: #D0E2FB;
   box-shadow: 0px 1px 8px #444;
   padding: 1em;
-
-
-  /*color: #507385;*/
-  /*color: #333;*/
-  /*padding-top: 4em;*/
-  /*background-color: #34675C;*/
-  /*background-color: #13331D;*/
-  /*background-color: #000;*/
 }
 
 #profile_image_container {
-  /*width: 100%;*/
   height:100%;
   max-width: 550px;
   margin: 10px auto 10px auto;
@@ -138,37 +97,15 @@ h2 {
 }
 
 #profile_image {
-  /*max-width: 450px;*/
-  /*max-height: 450px;*/
   width: 100%;
-  /*height: 100%;*/
   border-radius:50%;
-  /*margin-left: 50px;
-  margin-right: 50px;*/
-  /*padding: 0 50px 0 50px;*/
-  /*object-fit: scale-down;*/
 }
 
 .anchor {
   display: block;
   position: absolute;
-  /*width: 100%;*/
-  /*padding: 0;*/
-  /*top: -2px;*/
   visibility: hidden;
 }
-
-/*.header_filler {
-  display: block;
-  position: relative;
-  top: -80px;
-  visibility: hidden;
-}*/
-
-/*.background_images {
-  display: block;
-  width: 100%
-}*/
 
 .text_container_holder {
   width: 100%;
@@ -177,9 +114,6 @@ h2 {
 .text_container {
   width: 100%;
   margin: 0 auto;
-  /*margin-left: auto;
-  margin-right: auto;*/
-  /*margin: auto;*/
   position: relative;
   text-align: center;
   background-color: rgb(200, 200, 200);
@@ -191,28 +125,10 @@ h2 {
 p {
   display: block;
   margin: 1em auto;
-  /*margin: 1em;*/
   padding: 0 1em;
   max-width: 500px;
   text-align: left;
 }
-
-/*#prof_content_container {
-  display: block;
-  position: relative;
-  margin: 0 5% 5% 5%;
-  background-color: #FFF;
-}*/
-
-/*.professional_category {
-  display: inline-block;
-  padding: 1em;
-  color: #063852;
-}*/
-
-/*.professional_description {
-  padding: 1em;
-}*/
 
 .contact_container {
   display: -webkit-flex;
@@ -250,28 +166,6 @@ p {
 #social_media_links {
   margin-left: 50px;
 }
-
-/*.image_credit_dark {
-  font-family: "Trebuchet MS", "Arial", sans-serif;
-  font-size: 18px;
-  color: rgb(25,25,25);
-  color: rgba(0,0,0,0.7);
-  display: inline;
-  position: absolute;
-  right: 0.5em;
-  bottom: 0.5em;
-}*/
-
-/*.image_credit_light {
-  font-family: "Trebuchet MS", "Arial", sans-serif;
-  font-size: 18px;
-  color: rgb(225,225,225);
-  color: rgba(255,255,255,0.6);
-  display: inline;
-  position: absolute;
-  right: 0.5em;
-  bottom: 0.5em;
-}*/
 
 @media screen and (min-width: 541px) {
   #banner_title {
